@@ -1,55 +1,3 @@
-// #include<iostream>
-// #include<fstream>
-// #include<string>
-// using namespace std;
-
-// class link
-// {
-//     public:
-//         char name[20];
-//         link *next;
-// };
-
-// int main()
-// {
-//     ifstream file("words.txt");
-//     string word, srch;
-
-//     link *start, *first;
-//     start = new link();
-//     first = start;
-
-//     while(getline(file, word))
-//     {
-//         strncpy(start->name, word.c_str(), 19);
-//         start->name[19] = '\0';
-
-//         if(file.peek() != EOF)
-//         {
-//             start->next = new link();
-//             start = start->next;
-//         }
-//         else
-//         {
-//             start->next = NULL;
-//         }
-//     }
-
-//     start = first;
-
-//     // while(start!=NULL)
-//     // {
-//     //     cout<<start->name;
-//     //     cout<<endl;
-
-//     //     start= start->next;
-//     // }
-
-//     cout<<endl<<endl<<"Enter your word: ";
-    
-// }
-
-
 #include<iostream>
 #include<fstream>
 #include<string>
@@ -150,13 +98,6 @@ int main()
     }
 
     start = first;
-
-    // while(start!=NULL)
-    // {
-    //     cout<<start->name;
-    //     cout<<endl;
-    //     start= start->next;
-    // }
 
     cout << endl << endl << "Enter your word: ";
     cout.flush();
